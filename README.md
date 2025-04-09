@@ -1,3 +1,3 @@
-setup envirnoment 
-install requerements
-run app.py
+1. setup envirnoment 
+2. install requerements
+3. run app.py

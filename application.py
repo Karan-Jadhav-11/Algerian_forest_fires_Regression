@@ -4,7 +4,8 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from flask import Flask,request,jsonify,render_template
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 
 # import ridgecv regression model
 ridgecv_model=pickle.load(open('models/ridgecv.pkl','rb'))
